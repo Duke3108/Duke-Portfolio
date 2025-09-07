@@ -177,7 +177,7 @@ const About = () => {
     <motion.div
       initial={{opacity:0}}
       animate={{opacity:1, transition:{duration:0.4,delay:2.4, ease:"easeIn"}}}
-      className='min-h-[80vh] flex justify-center py-12 xl:py-0'
+      className='min-h-[80vh] mt-12 flex justify-center py-12 xl:py-0'
     >
       <div className='container mx-auto px-4 py-4'>
         <Tabs

@@ -6,7 +6,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header className='py-6 xl:py-8 px-4 text-white'>
+    <header className='py-8 xl:py-12 px-4 text-white'>
         <div className="container mx-auto flex justify-between items-center">
             {/* logo */}
             <Link href="/">
