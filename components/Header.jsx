@@ -6,7 +6,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header className='py-6 xl:py-10 px-4 text-white'>
+    <header className='py-6 xl:py-8 px-4 text-white'>
         <div className="container mx-auto flex justify-between items-center">
             {/* logo */}
             <Link href="/">
@@ -18,9 +18,9 @@ const Header = () => {
             {/* nav & button */}
             <div className="hidden xl:flex items-center gap-8">
                 <Nav />
-                <Link href="/contact">
+                {/* <Link href="/contact">
                     <Button>Liên hệ</Button>
-                </Link>
+                </Link> */}
             </div>
 
             {/* mobile nav */}

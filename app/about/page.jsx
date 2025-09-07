@@ -177,9 +177,9 @@ const About = () => {
     <motion.div
       initial={{opacity:0}}
       animate={{opacity:1, transition:{duration:0.4,delay:2.4, ease:"easeIn"}}}
-      className='min-h-[80vh] flex items-center justify-center py-12 xl:py-0'
+      className='min-h-[80vh] flex justify-center py-12 xl:py-0'
     >
-      <div className='container mx-auto px-4'>
+      <div className='container mx-auto px-4 py-4'>
         <Tabs
           defaultValue="experience"
           className="flex flex-col xl:flex-row gap-[60px]"
@@ -195,9 +195,9 @@ const About = () => {
           <div className='min-h-[70vh] w-full'>
             {/* experience */}
             <TabsContent value="experience" className='w-full'>
-              <div className='flex flex-col gap-[30px] text-center xl:text-left'>
+              <div className='flex flex-col gap-6 text-center xl:text-left'>
                 <h3 className='text-4xl font-bold'>{experience.title}</h3>
-                <p className='max-w-[600px] text-white/60 mx-auto xl:mx-0'>
+                <p className=' text-white/60 mx-auto xl:mx-0'>
                   {experience.description}
                 </p>
                 <ScrollArea className='h-[400px]'>
@@ -221,7 +221,7 @@ const About = () => {
             <TabsContent value="education" className='w-full'>
                <div className='flex flex-col gap-[30px] text-center xl:text-left'>
                 <h3 className='text-4xl font-bold'>{education.title}</h3>
-                <p className='max-w-[600px] text-white/60 mx-auto xl:mx-0'>
+                <p className='text-white/60 mx-auto xl:mx-0'>
                   {education.description}
                 </p>
                 <ScrollArea className='h-[400px]'>
@@ -246,7 +246,7 @@ const About = () => {
               <div className="flex flex-col gap-[30px]">
                 <div className='flex flex-col gap-[30px] text-center xl:text-left'>
                   <h3 className='text-4xl font-bold'>{skills.title}</h3>
-                  <p className='max-w-[600px] text-white/60 mx-auto xl:mx-0'>
+                  <p className='text-white/60 mx-auto xl:mx-0'>
                     {skills.description}
                   </p>
                 </div>
@@ -273,7 +273,7 @@ const About = () => {
             <TabsContent value="about" className='w-full text-center xl:text-left'>
               <div className='flex flex-col gap-[30px]'>
                 <h3 className='text-4xl font-bold'>{about.title}</h3>
-                <p className='max-w-[600px] text-white/60 mx-auto xl:mx-0'>
+                <p className='text-white/60 mx-auto xl:mx-0'>
                   {about.description}
                 </p>
                 <ul className='grid grid-cols-1 xl:grid-cols-2 max-w-[620px] gap-y-6 mx-auto xl:mx-0'>
